@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1637910176 source:z:\programmesana_1\clevercode\pd1_rb_11g_1v\main.cpp
+	<iostream>
+	<cmath>
+	<iomanip>
+	<ctime>
+	<cstdlib>
+
+1637910625 source:z:\programmesana_1\pd1_rb_11g_1v\main.cpp
+	<iostream>
+	<cmath>
+	<iomanip>
+	<ctime>
+	<cstdlib>
+
