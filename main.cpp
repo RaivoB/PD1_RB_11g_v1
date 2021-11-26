@@ -30,6 +30,13 @@ int sus(int x, int y, int r)
     int SumR, SumK, SumM;
     int p;
     p = r;
+    if ((x < 1) && ( x > 10) && ( y < 1) && (y > 10) && ( n < 2) && (n > 2))
+    {
+        cout <<"Skaitlis nav robezas!"<< endl;
+    }
+   else
+   {
+
 
     for (int i = 0; i < x; i++)
 {
@@ -42,18 +49,7 @@ int sus(int x, int y, int r)
 	}
 	cout << endl;
 
-   for (int i = 0; i < x; i++)
-{
-
-	for (int j = 0; j < y; j++)
-	{
-   SumR = SumR + mas[i][j];
-
 }
- cout << SumR << endl;
-}
-	cout << endl;
-
 }
  return y;
 }
