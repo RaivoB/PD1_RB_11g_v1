@@ -27,15 +27,9 @@ int sus(int x, int y, int r)
     srand((unsigned)time(NULL));
 
     double mas[x][y];
-    int SumR, SumK, SumM;
+    int SumM;
     int p;
     p = r;
-    if ((x < 1) && ( x > 10) && ( y < 1) && (y > 10) && ( n < 2) && (n > 2))
-    {
-        cout <<"Skaitlis nav robezas!"<< endl;
-    }
-   else
-   {
 
 
     for (int i = 0; i < x; i++)
@@ -45,11 +39,11 @@ int sus(int x, int y, int r)
 	{
    mas[x][y] = rand() % p;
    cout << mas[x][y] << " ";
+   SumM = SumM + mas[x][y];
 
 	}
 	cout << endl;
-
 }
-}
+cout <<"Summa - " << SumM <<endl;
  return y;
 }
